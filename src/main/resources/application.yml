@@ -1,0 +1,18 @@
+security:
+  oauth2:
+    client:
+      clientId: 7fb1855644d453d64a34
+      clientSecret: 90799ac3127eaa34b413e10fa42d7585e8c0deb9
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: query
+    resource:
+      userInfoUri: https://api.github.com/user
+
+server:
+  port: 8085
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
